@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jegede.ba.BA4Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:id="@+id/abtus"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nexus mobile is the official Mobile app of
+        the Nexus Bank. Our aim here is to provide a  comfortable
+        and suitable way of banking for our customers . Whether
+        it is from the comfort of their homes or even when walking
+         on the street. The Nexus Mobile allows you to perform various
+         banking transactions from anywhere in the country.At any
+         time ,anyday and on any occassion . So why dont you try us for a change.
+          NEXUS BANK YOUR BANK OF FIRST CHOICE.
+" android:layout_below="@id/abtus"
+        android:id="@+id/atus"
+        android:textSize="16sp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="NEXUSmobile"
+        android:layout_centerInParent="true"
+        android:id="@+id/txText"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/txText"
+        android:paddingLeft="4sp"
+        android:text="GET HELP"/>
+
+
+</RelativeLayout>
